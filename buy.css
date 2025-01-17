@@ -1,19 +1,19 @@
 body {
-    background-color: #36454F; /* Sets the background color */
+    background-color: #36454F; 
     position: relative;
-    font-family: Arial, sans-serif; /* Set a basic font for the body */
+    font-family: Arial, sans-serif; 
 }
 
 #email, #phone, #name, #borough, #check {
-    position: absolute;  /* Position the elements relative to the body */
+    position: absolute;  
     padding: 10px 20px;
-    height: 40px;        /* Set a height to make the input fields visible */
+    height: 40px;       
     width: 319px;
     background-color: #36454F;
-    color: #fff;         /* Make text in the input fields visible */
-    font-size: 16px;     /* Set a readable font size for input fields */
-    border: none;        /* Remove default borders */
-    border-radius: 5px;  /* Optional: Round the corners of input fields */
+    color: #fff;         
+    font-size: 16px;     
+    border: none;        
+    border-radius: 5px;  
 }
 
 #email {
