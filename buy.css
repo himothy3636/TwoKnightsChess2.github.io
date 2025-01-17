@@ -104,8 +104,8 @@ body {
     font-size: 16px;
     height: 50px;
     width: 306px;
-    background-color: #00334D;
-    border-color: #00334D;
+    background-color: #36454F;
+    border-color: #000000;
 }
 #pricing_button {
     position: absolute;  /* Position the button relative to the nearest positioned ancestor */
@@ -114,8 +114,8 @@ body {
     font-size: 16px;
     height: 50px;
     width: 100px;
-    background-color: #00334D;
-    border-color: #00334D;
+    background-color: #36454F;
+    border-color: #000000;
 }
 #about_me {
     position: absolute;  /* Position the button relative to the nearest positioned ancestor */
@@ -124,5 +124,6 @@ body {
     font-size: 16px;
     height: 50px;
     width: 100px;
-    background-color: #00334D;
+    background-color: #36454F;
+    border-color: #000000;
 }
