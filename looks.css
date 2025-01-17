@@ -1,0 +1,115 @@
+body {
+    background-color: #36454F; /* Sets the background color */
+    position: relative;
+}
+
+#text_button {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Applies font styling to the button */
+}
+
+#pricing_button {
+    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
+    left: 700px;          /* Move the button 484px from the left side of the screen */
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 50px;
+    width: 100px;
+    background-color: #00334D;
+}
+
+#me_button {
+    position: absolute;  
+    left: 800px;          /* Move the button 484px from the left side of the screen */
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 50px;
+    width: 100px;
+    background-color: #00334D;
+}
+
+#book_button {
+    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
+    top: 520px;           /* Move the button 714px from the top of the screen */
+    left: 416px;          /* Move the button 484px from the left side of the screen */
+    padding: 10px 20px;
+    font-size: 32px;
+    height: 69px;
+    width: 192px;
+    background-color: #00334D;
+    border-radius: 15px;
+}
+
+#contact_button {
+    position: absolute;  /* Position the button relative to the nearest positioned ancestor */   
+    left: 900px;
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 50px;
+    width: 124px;
+    background-color: #00334D;
+}
+
+#home_button {
+    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 50px;
+    width: 306px;
+    background-color: #00334D;
+}
+
+#main_text {
+    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
+    top: 214px;           /* Move the button 714px from the top of the screen */
+    left: 224px;          /* Move the button 484px from the left side of the screen */
+    padding: 10px 20px;
+    font-size: 85px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.text_button {
+    border-color: #00334D;
+}
+
+#chess_board_img {
+    position: absolute;
+    left: 930px;
+    top: 236px;
+
+}
+
+#knight1 {
+    position: absolute;
+    top: 358px;
+    left: 1099px;
+    width: 130px;
+    height: 184px;
+    transform: rotate(-15deg);
+}
+#knight2 {
+    position: absolute;
+    top: 358px;
+    left: 905px;
+    width: 130px;
+    height: 184px;
+    transform: rotate(15deg) scaleX(-1);
+}
+
+#rectangle {
+    position: absolute;
+    top: -8px;
+    left: -9px;
+    width: 1524px;
+    height: 56px;
+    z-index: -1;  
+}
+#about_me {
+    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
+    left: 476px;          /* Move the button 484px from the left side of the screen */
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 50px;
+    width: 100px;
+    background-color: #00334D;
+}

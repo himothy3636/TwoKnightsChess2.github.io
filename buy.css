@@ -1,0 +1,128 @@
+body {
+    background-color: #00334D; /* Sets the background color */
+    position: relative;
+    font-family: Arial, sans-serif; /* Set a basic font for the body */
+}
+
+#email, #phone, #name, #borough, #check {
+    position: absolute;  /* Position the elements relative to the body */
+    padding: 10px 20px;
+    height: 40px;        /* Set a height to make the input fields visible */
+    width: 319px;
+    background-color: #36454F;
+    color: #fff;         /* Make text in the input fields visible */
+    font-size: 16px;     /* Set a readable font size for input fields */
+    border: none;        /* Remove default borders */
+    border-radius: 5px;  /* Optional: Round the corners of input fields */
+}
+
+#email {
+    left: 941px; 
+    top: 457px;        
+}
+
+#phone {
+    left: 157px; 
+    top: 457px;        
+}
+
+#name {
+    left: 157px; 
+    top: 250px;        
+}
+
+#borough {
+    left: 941px; 
+    top: 250px;        
+}
+
+#check {
+    left: 408px; 
+    top: 525px;        /* Adjusted top to avoid being off the screen */
+}
+
+#phonetext, #nametext, #boroughtext, #emailtext{
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;     /* Set a reasonable font size for labels */
+    color: #000000;         /* Set label text color to white for contrast */
+}
+
+#phonetext {
+    left: 157px;
+    top: 212px;        /* Adjust to align with phone input */
+}
+
+#nametext {
+    left: 157px;
+    top: 419px;        /* Adjust to align with name input */
+}
+
+#boroughtext {
+    left: 941px;
+    top: 210px;        /* Adjust to align with Borough input */
+}
+
+#emailtext {
+    left: 939px;
+    top: 420px;
+            /* Adjust to align with email input */
+    
+}
+
+#checkboxtext {
+    left: 603px;
+    top: 542px;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;     /* Set a reasonable font size for labels */
+    color: #000000;
+    
+}
+#book_button {
+    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
+    top: 615px;           /* Move the button 714px from the top of the screen */
+    left: 649px;          /* Move the button 484px from the left side of the screen */
+    padding: 10px 20px;
+    font-size: 32px;
+    height: 69px;
+    width: 192px;
+    background-color: #36454F;
+    border-radius: 15px;
+}
+#rectangle {
+    position: absolute;
+    top: -8px;
+    left: -9px;
+    width: 1524px;
+    height: 56px;
+    z-index: -1;  
+}
+#home_button {
+    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 50px;
+    width: 306px;
+    background-color: #00334D;
+    border-color: #00334D;
+}
+#pricing_button {
+    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
+    left: 700px;          /* Move the button 484px from the left side of the screen */
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 50px;
+    width: 100px;
+    background-color: #00334D;
+    border-color: #00334D;
+}
+#about_me {
+    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
+    left: 476px;          /* Move the button 484px from the left side of the screen */
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 50px;
+    width: 100px;
+    background-color: #00334D;
+}
